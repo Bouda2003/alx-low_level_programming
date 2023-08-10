@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description : 'print a sentance to screen'
- * return: Always '0' (success)
+ * Return: Always '0' (success)
  */
 int main(void)
 {

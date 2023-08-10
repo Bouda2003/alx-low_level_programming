@@ -1,3 +1,4 @@
+/*printing text on a screen useing main as entry point and return is always zero*/
 #include <stdio.h>
 int main(void)
 {

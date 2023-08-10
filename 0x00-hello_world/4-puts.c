@@ -1,5 +1,10 @@
-/*printing text on a screen useing main as entry point and return is always zero*/
 #include <stdio.h>
+
+/**
+ * main - Entry point
+ * Description : 'print a sentance to screen'
+ * return : always 0 (success)
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");

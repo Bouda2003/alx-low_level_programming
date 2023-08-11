@@ -11,7 +11,7 @@ int main(void)
 	char y = 'z';
 y--;
 putchar (y);
-putchar ('\n')
+putchar ("\n")
 
 		return (0);
 }

@@ -10,8 +10,8 @@ int main(void)
 {
 	char y ;
 	while (y >= 'a')
-y--;
 putchar (y);
+	y--;
 
 
 		return (0);

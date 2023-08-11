@@ -9,6 +9,7 @@
 int main(void)
 {
 	char y = 'z';
+	for (low = 'z'; low >= 'a'; low--)
 y--;
 putchar (y);
 

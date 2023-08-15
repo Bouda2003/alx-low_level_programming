@@ -9,6 +9,12 @@
 int main(void)
 
 {
-	printf("_putchar\n");
+	char str[] = "_putchar";
+	int ch;
+
+	for (ch = 0; cd < 8; ch++)
+
+		_putchar(str[ch]);
+	_putchar ('\n');
 	return (0);
 }

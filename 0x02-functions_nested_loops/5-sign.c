@@ -1,15 +1,31 @@
 #include "main.h"
 
 /**
- *_abs - Check Holberton
- * @r: An integre input
- * Description: This function returns absolute value of a number
- * Return: Absolut value of number r
+ * print_sign - Check Holberton
+ * @n: An input number
+ * Description: Tohis function prints the sign of the number
+ * Return: 1 if number is positive, o if number is 0, or
+ * -1 if number is negative
  */
-int _abs(int r)
+int print_sign(int n)
 {
-	if (r >= 0)
-		return (r);
+	int value;
+
+	if (n > 0)
+	{
+		value = 1;
+		_putchar('+');
+	}
+	else if (n == 0)
+	{
+		value = 0;
+		_putchar('0');
+	}
 	else
-		return (r * -1);
+	{
+		value = -1;
+		_putchar('-');
+	}
+
+	return (value);
 }

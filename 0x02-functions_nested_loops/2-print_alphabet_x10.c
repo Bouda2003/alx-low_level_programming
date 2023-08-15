@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * DescriPtion:Write a function that prints 10 times
+ * DescriPtion: Write a function that print_alphabet_x10
  */
 
 void print_alphabet_x10(void)

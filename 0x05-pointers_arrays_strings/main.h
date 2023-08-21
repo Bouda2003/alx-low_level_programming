@@ -25,6 +25,5 @@ char *_strcpy(char *dest, char *src);
 
 int _atoi(char *s);
 
-size_t _strlen(const char *str);
 
 #endif /* MAIN_H */

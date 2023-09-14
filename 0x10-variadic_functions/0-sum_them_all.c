@@ -2,11 +2,11 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - return the sum of inserted values.
+ * sum_them_all - Returns the sum of all its paramters.
  * @n: the number of parametrs that will be sumed.
  * @...: the variable of parametrs.
  * Return 0 if n == 0 else return the sum.
- */   
+ */
 
 int sum_them_all(const unsigned int n, ...)
 {

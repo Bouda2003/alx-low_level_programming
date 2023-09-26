@@ -10,7 +10,10 @@
  */
 listint_t *get_nint_at_index(listint_t *head, unsigned int index)
 {
-	unsigned int n;
+	unsigned int n = 0;
+
+	if (head == NULL)
+		return (NULL);
 
 	for (n = 0; n < index; n++)
 	{

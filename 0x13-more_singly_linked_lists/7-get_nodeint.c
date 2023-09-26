@@ -8,7 +8,7 @@
  * Return: If the n does not exist - NULL.
  *         Otherwise - the located n.
  */
-listint_t *get_nint_at_index(listint_t *head, unsigned int index)
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	unsigned int n = 0;
 
